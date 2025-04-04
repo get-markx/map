@@ -28,7 +28,7 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 index: "./index.html",
-                test_quest: "./testpage.html",
+                testpage: "./testpage.html",
                 ...getMapsScripts(maps),
             },
         },
