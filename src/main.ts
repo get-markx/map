@@ -11,13 +11,16 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
 
-    WA.room.area.onEnter('clock').subscribe(() => {
-        const today = new Date();
-        const time = today.getHours() + ":" + today.getMinutes();
-        currentPopup = WA.ui.openPopup("clockPopup", "It's " + time, []);
-    })
+    WA.room.area.onEnter('restricted_area').subscribe(() => {
+        console.log("L'utente ha provato ad entrare nella restricted_area!");
+        currentPopup = WA.ui.openPopup("restrictedPopup", "Accesso vietato!", []);
+        WA.player.moveTo(846, 306); // Sposta il player fuori dall'area (esempio)
+    });
 
-    WA.room.area.onLeave('clock').subscribe(closePopup)
+    WA.room.area.onLeave('restricted_area').subscribe(() => {
+        console.log("✅ L'utente ha lasciato la restricted_area.");
+        closePopup();
+    });
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
