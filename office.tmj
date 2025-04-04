@@ -234,6 +234,28 @@
                  "width":127.333333333333,
                  "x":799.333333333333,
                  "y":159.333333333333
+                }, 
+                {
+                 "height":30,
+                 "id":6,
+                 "name":"welcome_zone",
+                 "properties":[
+                        {
+                         "name":"message",
+                         "type":"string",
+                         "value":"Benvenuto in Elmec!"
+                        }, 
+                        {
+                         "name":"type",
+                         "type":"string",
+                         "value":"message"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":62,
+                 "x":449,
+                 "y":447
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -242,7 +264,7 @@
          "y":0
         }],
  "nextlayerid":12,
- "nextobjectid":4,
+ "nextobjectid":8,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.11.2",
