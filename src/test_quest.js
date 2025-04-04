@@ -9,4 +9,3 @@ while(true){
     await sleep(5000)
     await levelUp("TIME_SPENT_IN_THE_GAME", 10);
 }
-
