@@ -213,12 +213,6 @@
          "id":10,
          "name":"fornitures",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"collides",
-                 "type":"bool",
-                 "value":true
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":30,
@@ -276,7 +270,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"src\/main.js"
+         "value":"src/main.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.11.2",
