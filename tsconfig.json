@@ -31,5 +31,5 @@
   },
   "include": [
     "src"
-, "public/main.js"  ]
+, "src/main.js"  ]
 }

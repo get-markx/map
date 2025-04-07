@@ -29,6 +29,7 @@ export default defineConfig({
             input: {
                 index: "./index.html",
                 testpage: "./testpage.html",
+                main: "./src/main.js",
                 ...getMapsScripts(maps),
             },
         },
