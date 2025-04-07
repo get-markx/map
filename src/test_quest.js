@@ -1,5 +1,7 @@
 import {levelUp} from "@workadventure/quests";
 
+console.log("test_quest")
+
 const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
 
 
