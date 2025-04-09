@@ -222,7 +222,7 @@
         {
          "draworder":"topdown",
          "id":11,
-         "name":"floorLayes",
+         "name":"floorLayer",
          "objects":[
                 {
                  "height":46,
