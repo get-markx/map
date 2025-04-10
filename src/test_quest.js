@@ -2,12 +2,13 @@ import {levelUp} from "@workadventure/quests";
 
 console.log("test_quest")
 
-const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
-
-
 console.log("Page Open")
-sleep(5000)
 console.log("Assign 10 xp once")
-await levelUp("TIME_SPENT_IN_THE_GAME", 10).catch(e => console.error(e));
+
+(async () => {
+    await WA.onInit();
+    console.log('Current player name: ', WA.player.name);
+    levelUp("TIME_SPENT_IN_THE_GAME", 10).catch(e => console.error(e));
+})();
 
 
