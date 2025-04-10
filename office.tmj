@@ -315,6 +315,10 @@
          "name":"script",
          "type":"string",
          "value":"src\/main.js"
+        },{
+              "name":"script",
+              "type":"string",
+              "value":"src\/test_quest.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.11.2",

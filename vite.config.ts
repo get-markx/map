@@ -29,6 +29,7 @@ export default defineConfig({
             input: {
                 index: "./index.html",
                 testpage: "./testpage.html",
+                test_js: "./src/test_quest.js",
                 main: "./src/main.js",
                 ...getMapsScripts(maps),
             },
