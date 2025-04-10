@@ -1,4 +1,4 @@
-//import {levelUp} from "@workadventure/quests";
+import {levelUp} from "/@workadventure/quests";
 
 console.log("test_quest")
 
