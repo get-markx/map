@@ -1,0 +1,1 @@
+{"version":3,"file":"main-739ecc92.js","sources":["../../src/main.js"],"sourcesContent":["/// <reference types=\"@workadventure/iframe-api-typings\" />\n//import { bootstrapExtra } from \"@workadventure/scripting-api-extra\";\nconsole.log('Script started successfully, hello world!!');\n//# sourceMappingURL=main.js.map"],"names":[],"mappings":"AAEA,QAAQ,IAAI,4CAA4C"}
