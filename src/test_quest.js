@@ -1,5 +1,4 @@
-import {levelUp} from "@workadventure/quests";
-
+import {levelUp, getQuest} from "@workadventure/quests";
 
 
 (async () => {
